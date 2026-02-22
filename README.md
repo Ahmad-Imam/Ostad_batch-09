@@ -2,6 +2,10 @@
 
 A complete Todo web application built with Django, featuring a modern UI with Tailwind CSS.
 
+# Live URL
+
+https://ostadbatch-09-production-4343.up.railway.app/
+
 ## Features
 
 - ✅ Create, Read, Update, and Delete tasks
@@ -30,32 +34,38 @@ A complete Todo web application built with Django, featuring a modern UI with Ta
 ### Installation
 
 1. **Clone or navigate to the project directory:**
+
    ```bash
    cd /path/to/todo_project
    ```
 
 2. **Create a virtual environment (recommended):**
+
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. **Install dependencies:**
+
    ```bash
    pip install -r requirements.txt
    ```
 
 4. **Run migrations:**
+
    ```bash
    python manage.py migrate
    ```
 
 5. **Create a superuser (optional, for admin access):**
+
    ```bash
    python manage.py createsuperuser
    ```
 
 6. **Run the development server:**
+
    ```bash
    python manage.py runserver
    ```
@@ -128,6 +138,7 @@ python manage.py test
 ### Making Changes
 
 1. **Model Changes**: After modifying `models.py`, run:
+
    ```bash
    python manage.py makemigrations
    python manage.py migrate
@@ -138,4 +149,3 @@ python manage.py test
 ## License
 
 This project is open source and available for educational purposes.
-
